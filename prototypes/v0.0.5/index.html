@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Prototype v0.0.5</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/v0.0.5.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 480px"></div>
+    </div>
+    <div><i>Click on the numbers to start the test scene.</i></div>
+    <div class="controls">
+      <h2>Controls</h2>
+      <p class="subtitle">You can also use joystick ;D</p>
+      <p>Walk: A / D</p>
+      <p>Crouch: S</p>
+      <p>Jump: Space / K</p>
+      <p>Dodge: Q / E</p>
+      <p>Punch: J</p>
+    </div>
+
+    <div class="controls about">
+      <h2>About</h2>
+      <p>This is the first prototype for our game Smashing Spirits.</p>
+      <p>So keep in mind you will play a buggy version we drafted quickly to test the mechanics.</p>
+      <p>We will not use this code, consider it as a gift, an opportunity to follow the game evolving from the very beginning.</p>
+      <p class="subtitle"></p>
+      <p>PS.: All the graphics are "fakes" we used just to test the mechanics.</p>
+    </div>
+  </body>
+</html>
