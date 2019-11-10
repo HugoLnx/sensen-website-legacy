@@ -3,20 +3,218 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+@font-face {
+    font-family: 'Primitive';
+    src: url('../fonts/Primitive.eot');
+    src: url('../fonts/Primitive.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Primitive.woff2') format('woff2'),
+        url('../fonts/Primitive.woff') format('woff'),
+        url('../fonts/Primitive.svg#Primitive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+#logo {
+  text-indent: -9999px;
+  background: url('../img/logo.png') no-repeat top right;
+  background-size: 10vh;
+  width: 10vh;
+  height: 10vh;
+  margin: 0;
+  padding: 0
+}
+
+.navbar, .navbar .container, .navbar .navbar-brand {
+  margin: 0;
+  padding: 0
+}
+
+.navbar .container {
+  margin: 0 10%;
+}
+
 body {
   padding-top: 56px;
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 85vh;
   min-height: 300px;
-  background: no-repeat center center scroll;
+  background: no-repeat left bottom scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: url('../img/background.jpg');
+}
+
+@media screen and (max-width: 979px) {
+  .carousel-item {
+    background-image: url('../img/background-tablet.jpg');
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-item {
+    background-image: url('../img/background-mobile.jpg');
+  }
 }
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.carousel-caption h3 {
+  font-family: 'Primitive';
+}
+
+.carousel-item p {
+  font-family: 'Verdana';
+  text-align: center;
+  color: white;
+}
+
+.carousel-call-to-action {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 6%;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-call-to-action p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.carousel-caption {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 6rem;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+}
+
+.carousel-caption-background {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5vh;
+  bottom: none;
+  left: 0;
+  right: 0;
+  height: 16vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 501px) {
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+  /*
+  .carousel-caption {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  */
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption h3 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+  /*
+  .carousel-caption {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 13vh;
+    bottom: 0;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+  }
+  */
+}
+
+body > header {
+  padding-bottom: 3vh;
+}
+
+ul.social {
+  padding: 0;
+  margin: 0;
+}
+
+ul.social, .social li {
+  border: none;
+  padding: 0;
+}
+
+.social-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+@media screen and (min-width: 980px) {
+  .social img {
+    width: 96px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .social img {
+    width: 64px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .social img {
+    width: 64px;
+  }
+
+  .mailing-list {
+    height: 400px;
+    margin-top: 20px;
+  }
 }
