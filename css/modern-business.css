@@ -14,13 +14,8 @@
     font-style: normal;
 }
 
-a:link {
+a:link, a:visited {
     color: #fff;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #ccc;
     text-decoration: underline;
 }
 
@@ -82,6 +77,7 @@ body {
   font-family: 'Verdana';
   text-align: center;
   color: white;
+  font-weight: bold;
 }
 
 .carousel-call-to-action {
@@ -216,5 +212,26 @@ ul.social, .social li {
   .mailing-list {
     height: 400px;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 301px) {
+  .carousel-call-to-action {
+    height: 5.7rem;
+    width: 30%;
+    min-width: 70vh;
+    right: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  #playnow {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  .call-to-action-subtext {
+    text-transform: capitalize;
   }
 }
