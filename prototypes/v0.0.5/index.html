@@ -39,6 +39,14 @@
     <!-- End Facebook Pixel Code -->
   </head>
   <body>
+    <script>
+      fbq('track', 'ViewContent', {
+        value: 1,
+        currency: 'BRL',
+        content_ids: 'prototype-v0.0.5',
+        content_type: 'prototype',
+      });
+    </script>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 480px"></div>
     </div>
