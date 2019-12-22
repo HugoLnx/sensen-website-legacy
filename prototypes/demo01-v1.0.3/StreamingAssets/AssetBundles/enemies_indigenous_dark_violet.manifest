@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1681775204
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f621901cd8e6b58f93a92c2ffae00c26
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/game/art/enemies/indigenous-dark-violet/indigenous-damage-01.png
+- Assets/game/art/enemies/indigenous-dark-violet/idle.png
+- Assets/game/art/enemies/indigenous-dark-violet/attack_spear_down.png
+- Assets/game/art/enemies/indigenous-dark-violet/indigenous-damage-02.png
+- Assets/game/art/enemies/indigenous-dark-violet/attack_spear_up.png
+- Assets/game/art/enemies/indigenous-dark-violet/attack_spear_slash.png
+Dependencies: []
