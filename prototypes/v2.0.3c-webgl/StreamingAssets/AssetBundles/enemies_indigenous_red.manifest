@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2496177959
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: abb1e6675f65e3d58872cfd36796055e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/game/art/enemies/indigenous-red/indigenous-damage-01.png
+- Assets/game/art/enemies/indigenous-red/attack_spear_slash.png
+- Assets/game/art/enemies/indigenous-red/indigenous-damage-02.png
+- Assets/game/art/enemies/indigenous-red/attack_spear_down.png
+- Assets/game/art/enemies/indigenous-red/attack_spear_up.png
+- Assets/game/art/enemies/indigenous-red/idle.png
+Dependencies: []
