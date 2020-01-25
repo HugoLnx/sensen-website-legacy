@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152404332-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152404332-1');
+  </script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Smashing Spirits</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/v2.0.3-new.json", {onProgress: UnityProgress});
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1281011195441304');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1281011195441304&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+  </head>
+  <body>
+    <script>
+      fbq('track', 'ViewContent', {
+        value: 1,
+        currency: 'BRL',
+        content_ids: 'demo-v2.0.3',
+        content_type: 'prototype',
+      });
+    </script>
+    <div class="webgl-content">
+
+      <div id="unityContainer" style="width: 1024px; height: 576px"></div>
+      <div class="footer">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Smashing Spirits - Demo</div>
+      </div>
+    </div>
+
+    <div class="controls">
+
+      <h2>Controls</h2>
+      <div class="controls-section">
+        <h3>Basics</h3>
+        <p>Move: A / S / D / W</p>
+        <p>Crouch: S</p>
+        <p>Jump: Space / L</p>
+        <p>Punch: J</p>
+      </div>
+
+      <div class="controls-section">
+        <h3>Skills to acquire on the demo</h3>
+        <p>Strong Punch: K</p>
+        <p>Dodge: Q / E</p>
+      </div>
+      <div class="controls-section">
+        <p class="subtitle">We recommend use a joystick, though</p>
+      </div>
+      <img width=320px src="../../img/demo-challenges.png"/>
+      <p>To get the discount take a print of the final dialog and post it on instagram/twitter with the hashtag <b>#SmashingSpiritsChallenge</b> and also tag our profile <b>@sensengames</b>.</p>
+    </div>
+  </body>
+</html>
